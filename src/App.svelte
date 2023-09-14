@@ -11,6 +11,8 @@
     import SpreadProps from './lib/props/SpreadProps.svelte';
     import IfBlock from './lib/logic/IfBlock.svelte';
     import EachBlock from './lib/logic/EachBlock.svelte';
+    import KeyedEachBlock from './lib/logic/KeyedEachBlock.svelte';
+    import AwaitBlock from './lib/logic/AwaitBlock.svelte';
 </script>
 <Hello name="neo choi"></Hello>
 <DynamicAttributes></DynamicAttributes>
@@ -24,3 +26,6 @@
 <SpreadProps></SpreadProps>
 <IfBlock></IfBlock>
 <EachBlock></EachBlock>
+<KeyedEachBlock></KeyedEachBlock>
+
+<AwaitBlock></AwaitBlock>
