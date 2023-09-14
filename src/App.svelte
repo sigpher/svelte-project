@@ -9,6 +9,8 @@
     import ReactiveStatements from './lib/reactive/ReactiveStatements.svelte';
     import DeclaringProps from './lib/props/DeclaringProps.svelte';
     import SpreadProps from './lib/props/SpreadProps.svelte';
+    import IfBlock from './lib/logic/IfBlock.svelte';
+    import EachBlock from './lib/logic/EachBlock.svelte';
 </script>
 <Hello name="neo choi"></Hello>
 <DynamicAttributes></DynamicAttributes>
@@ -20,3 +22,5 @@
 <ReactiveStatements></ReactiveStatements>
 <DeclaringProps></DeclaringProps>
 <SpreadProps></SpreadProps>
+<IfBlock></IfBlock>
+<EachBlock></EachBlock>
