@@ -6,6 +6,7 @@
 
 <style>
     img{
+        width: 10%;
         display: block;
         border-radius: 2%;
     }

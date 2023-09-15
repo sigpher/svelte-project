@@ -1,5 +1,5 @@
-<script>
-    export let current;
+<script lang="ts">
+    export let current:string;
     const initial = current;
 </script>
 
